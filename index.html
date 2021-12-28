@@ -1,12 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css display</title>
+    <link rel="stylesheet" href="stle.css" />
+  </head>
+  <body>
+    <div class="box_1">
+      <p>What is Display Block ?</p>
+    </div>
+
+    <div class="deatils">
+      <h2>What is display block in CSS ?</h2>
+      <p>
+        Displays an element as a block element. It starts on a new line and
+        takes up take up as much horizontal space as they can. Block-level
+        elements do not appear in the same line, but breaks the existing line
+        and appear in the next line.
+      </p>
+
+      <h2>synetx</h2>
+      <div class="blockquote">
+        <pre>
+            box{
+                display:block
+               }
+        </pre>
+      </div>
+    </div>
+
+    <div class="deatils">
+        <h2>What is inline element in CSS ?</h2>
+            <p>
+                An inline element does not start on a new line and it only takes up as much width as necessary. 
+                Inline elements do not respect / work  the top and bottom margins 
+                but only the left and right and also consider the padding
+            </p>
+      </div>
+
+      <div class="deatils">
+        <h2>What is inline-block in CSS ?</h2>
+            <p>
+            <ul class="points">
+            <li>Compared to display: inline, the major difference is that display: inline-block allows to set a width and height on the element.</li>
+            <li>Also, with display: inline-block, the top and bottom margins/paddings are respected, but with display: inline they are not.</li>
+            <li>Compared to display: block, the major difference is that display: inline-block does not add a line-break after the element, so the element can sit next to other elements.</li>
+            </ul>
+            </p>
+            <div class="blockquote">
+                <pre>
+                    span.a {
+                        display: inline; /* the default for span */
+                        width: 100px;
+                        height: 100px;
+                        padding: 5px;
+                        border: 1px solid blue;
+                        background-color: yellow;
+                      }
+                      
+                      span.b {
+                        display: inline-block;
+                        width: 100px;
+                        height: 100px;
+                        padding: 5px;
+                        border: 1px solid blue;
+                        background-color: yellow;
+                      }
+                      
+                      span.c {
+                        display: block;
+                        width: 100px;
+                        height: 100px;
+                        padding: 5px;
+                        border: 1px solid blue;
+                        background-color: yellow;
+                      }
+                </pre>
+              </div>
+      </div>
+
+      <div class="deatils">
+        <h2>What is inline vs block in CSS ?</h2>
+            <p>
+                There are two display values: block and inline. A block-level element always starts on a new line and takes up the full width available. An inline element does not start on a new line and it only takes up as much width as necessary. 
+                Inline elements do not respect / work  the top and bottom margins 
+                but only the left and right and also consider the padding
+            </p>
+       </div>
+
+       <div class="deatils">
+        <h2>What is the difference between Flex and Grid CSS?</h2>
+            <p>
+                Flexbox was designed specifically for one-dimensional layouts, while CSS Grid is engineered to enable two-dimensional layouts. Therefore, CSS Grid can easily render rows and columns simultaneously. ... Flexbox is designed for one-dimensional layouts, and Grid for two-dimensional layouts.
+            </p>
+       </div>
+
+       <div class="deatils">
+        <h2>What is the difference between display:none and visibility:hidden style?</h2>
+            <p>
+                display:none means that the tag in question will not appear on the page at all (although you can still interact with it through the dom). There will be no space allocated for it between the other tags. visibility:hidden means that unlike display:none , the tag is not visible, but space is allocated for it on the page.
+            </p>
+       </div>
+
+       <div class="deatils">
+        <h2>There are three common CSS properties to make an element invisible ?</h2>
+        
+        
+            <p>display: none</p>
+            <p>opacity: 0</p>
+            <p>visibility: hidden</p>
+            <br>
+            <hr>
+            <p>
+            <ul class="points">
+            <li>display: none doesn't take space when the element is rendered. The other ways still take the space normally.</li>
+            <li>The browser will not response to any events of element which uses either display: none or visibility: hidden. The visibility: hidden style behaves like a combination of opacity: 0 and pointer-events: none..</li>
+            <li>Regarding the accessibility, opacity: 0 is the only property which makes the element accessible in the tab order, and the element's content can be read by screen readers.</li>
+            <li>Applying display: none or opacity: 0 will effect on child elements. visibility: hidden, on the other hand, doesn't change the visibility of any children</li>
+            </ul>
+            </p>
+          
+      </div>
+       
+  </body>
 </html>
+
+
+

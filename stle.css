@@ -1,1 +1,70 @@
-/* No CSS *//*# sourceMappingURL=stle.css.map */
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #FFF;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.box_1 {
+  display: block;
+  background-color: crimson;
+  color: #FFF;
+  text-align: center;
+  padding: 10px 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-bottom: 7px solid gainsboro;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.deatils {
+  background-color: white;
+  max-width: 1000px;
+  margin: 0px auto;
+  padding: 10px;
+}
+
+.deatils h2 {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.deatils p {
+  line-height: 25px;
+}
+
+.deatils pre {
+  text-align: left;
+  white-space: pre-line;
+  line-height: 20px;
+}
+
+.deatils .blockquote {
+  display: inline-block;
+  background-color: #312f2f;
+  color: #FFF;
+  border-left: 5px solid #ffbb00;
+  padding: 20px;
+  font-size: 15px;
+  width: 100%;
+  margin: 20px 0px;
+}
+
+.points {
+  display: block;
+  line-height: 30px;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+.points li {
+  list-style-type: disc;
+}
+/*# sourceMappingURL=stle.css.map */
